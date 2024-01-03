@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        frameset {
+            border: none;
+        }
+
+        frame {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<frameset rows="20%, 10%,*">
+    <!-- First Row -->
+    <frameset cols="20%, *%">
+        <!-- Logo Frame -->
+        <frame name="logoFrame" src="logo.html"></frame>
+
+        <!-- Website Header Frame -->
+        <frame name="headerFrame" src="header.html"></frame>
+    </frameset>
+
+    <!-- Second Row -->
+    <frameset cols="15%, 15%, 15%, 15%, 15%,15%">
+        <!-- Menu Frame -->
+        <frame name="f21" src="f21.html"></frame>
+        <frame name="f22" src="f22.html"></frame>
+        <frame name="f23" src="f23.html"></frame>
+        <frame name="f24" src="f24.html"></frame>  
+        <frame name="f25" src="f25.html"></frame>
+        <frame name="f26" src="f26.html"></frame>
+    </frameset>
+
+    <!-- Third Row -->
+    <frameset cols="15%, *%">
+        <!-- Services Frame -->
+        <frame name="menuFrame" src="menu.html"></frame>
+
+        <!-- Description Frame -->
+        <frame name="descriptionFrame" ></frame>
+    </frameset>
+</frameset>
+</html>
